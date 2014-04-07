@@ -1,0 +1,184 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #003366;
+	font-family: 'Dosis',sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+h2{
+	padding: 0 0 20px 0;
+	font-size: 1.5em;
+}
+
+p, ul {
+	margin-top: 0;
+}
+
+p {
+	line-height: 180%;
+}
+
+a {
+
+}
+
+aside a:hover {
+	text-decoration: none;
+	color: #00ffff;
+}
+#wrapper {
+	margin: auto;
+	overflow: hidden;
+	width: 1200px;
+	background-color: #FFF;
+}
+
+header {
+	background-color: #e6ad00;
+	overflow: hidden;
+	height: 150px;
+}
+
+#logo {
+	border: 1px dashed red;
+	float: left;
+	width: 350px;
+	padding: 40px 0 0 50px;
+	text-transform: uppercase;
+}
+
+#logo h1 {
+	border: 1px dashed blue;
+	padding: 5px 10px 0 0;
+}
+
+#logo a {
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 300px;
+	color: #FFF;
+}
+
+nav {
+	float: right;
+	width: 700px;
+	padding: 60px 50px 0 0;
+}
+
+nav ul {
+	float: right;
+	list-style: none;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: block;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300px;
+	color: #FFF;
+	margin-left: 2px;
+	padding: 7px 30px 7px 30px;
+}
+
+#main {
+	overflow: hidden;
+	width: 1100px;
+	margin: 0 50px;
+	padding: 50px 0;
+	border-bottom: 1px solid red;
+
+}
+
+#content {
+	float: left;
+	width: 750px;
+}
+
+aside {
+	float: right;
+	width: 300px;
+}
+
+aside a {
+	text-decoration: none;
+	color: black;
+}
+
+aside li {
+	list-style: none;
+}
+
+#second {
+	overflow: hidden;
+	margin: 0 50px;
+	padding: 50px 0;
+}
+
+#second #one {
+	
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+#second #two {
+	
+	float: left;
+	width: 400px;
+}
+
+#second #three {
+	float: right;
+	width: 300px;
+}
+
+footer {
+	border-top: 5px solid black;
+	overflow: hidden;
+	margin: 0 50px;
+	padding: 30px 0;
+
+}
+
+footer p {
+	text-align: center;
+
+}
+
+footer a {
+	color: #e9ae11;
+	text-decoration: none;
+}
+
+#paginaactual {
+	font-style: italic;
+	background-color: black;
+}
+
+tr td {
+	text-align: center;
+	border: 1px solid black;
+
+}
+
+.table_header {
+	color: blue;
+}
